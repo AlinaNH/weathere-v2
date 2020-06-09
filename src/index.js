@@ -1,11 +1,13 @@
-function test() {
-  const div = document.createElement("div");
+import "./style.css";
+import background from "./background/background.js";
 
-  div.innerHTML = "test";
+function app() {
+  const containerApp = document.createElement("div");
 
-  return div;
+  containerApp.classList.add("container");
+  containerApp.innerHTML = background();
+
+  return containerApp;
 }
 
-let b;
-
-document.body.appendChild(test() );
+document.body.appendChild(app() );

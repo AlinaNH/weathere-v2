@@ -25,5 +25,14 @@ module.exports = {
     // eslint-disable-next-line no-undef
     path: path.resolve(__dirname, "dist"),
     publicPath: "/"
+  },
+  module: {
+    rules: [
+      {
+        // eslint-disable-next-line require-unicode-regexp
+        test: /\.css$/,
+        use: [ "style-loader", "css-loader" ]
+      }
+    ]
   }
 };
