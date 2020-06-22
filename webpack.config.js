@@ -29,7 +29,6 @@ module.exports = {
   module: {
     rules: [
       {
-        // eslint-disable-next-line require-unicode-regexp
         test: /\.css$/,
         use: [ "style-loader", "css-loader" ]
       }

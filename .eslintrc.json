@@ -238,7 +238,7 @@
     ],
     "no-lone-blocks": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": [
+    /*"no-magic-numbers": [
       "error",
       {
         "ignore": [],
@@ -246,7 +246,7 @@
         "enforceConst": false,
         "detectObjects": false
       }
-    ],
+    ],*/
     "no-multi-spaces": [
       "error",
       {
@@ -352,7 +352,7 @@
     ],
     "no-shadow-restricted-names": "error",
     "no-undef": [
-      "error",
+      "off",
       {
         "typeof": true
       }
@@ -741,13 +741,13 @@
         "asyncArrow": "never"
       }
     ],
-    "space-in-parens": [
+   /* "space-in-parens": [
       "error",
       "never",
       {
-        "exceptions": [ "{}", "[]", "()" ]
+        "exceptions": [ "{}", "[]"]
       }
-    ],
+    ],*/
     "space-infix-ops": [
       "error",
       {

@@ -1,8 +1,9 @@
-import "./background.css";
+// eslint-disable-next-line no-unused-vars
+import style from "./background.css";
 
 export default function background() {
   // eslint-disable-next-line no-multi-str
-  return "\
+  return `\
     <div class='backgroundContainer'>\
       <div class='cloudContainer1'>\
         <div class='cloud'></div>\
@@ -24,5 +25,5 @@ export default function background() {
         <div class='cloud'></div>\
       </div>\
     </div>\
-  ";
+  `;
 }
