@@ -2,7 +2,7 @@
 	position: fixed;
 	width: inherit;
 	height: inherit;
-	overflow-x: hidden;
+	overflow: hidden;
 	z-index: -1;
 	background-image: radial-gradient(#D3E4FB, #C4DBFA, #98C0F6);
 }
